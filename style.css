@@ -47,6 +47,7 @@ body {
     margin: 0 auto;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    font-family: var(--aa-typography-header-nav);
 }
 
 h1 {
@@ -210,6 +211,7 @@ a {
 .aa-section-certification--logo {
     width: 2.4rem;
     height: 2.4rem;
+    padding-right: .5rem;
 }
 
 .aa-pmba-logo {
@@ -238,6 +240,7 @@ a {
 }
 
 .aa-section-products__type {
+    flex-direction: column;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -260,7 +263,10 @@ a {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background-color: #292929;
+    background-color: #d9c71f;
+    font-weight: 800;
+    border-radius: 1rem;
+
     padding: .5rem;
     width: 90%;
 }
