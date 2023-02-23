@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- LINK -->
-  <link rel="icon" type="image/png" sizes="48x48" href="./Assets/triangulo-de-penrose.png">
+  <link rel="shortcut icon" type="image/png" sizes="48x48" href="./assets/3d.png">
 
   <link
     href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Megrim&family=Nabla&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Stalinist+One&display=swap"
@@ -44,29 +44,32 @@
             class="fa fa-linkedin"></i></a>
         <a href="https://www.instagram.com/adriantaa/" target="_blank" rel="noopener"><i
             class="fa fa-instagram"></i></a>
-        <!-- <a href="#"><i class="fab fa-discord"></i></a> -->
         <a href="https://www.tiktok.com/@loteriaanta" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a>
       </div>
+      <label class="aa-hamburger-label" for="hamburger">&#9776;</label>
+      <input type="checkbox" class="aa-hamburger" id="hamburger" />
       <nav class="aa-header__nav">
         <ul class="aa-header__nav__links aa-layout-flex">
-          <li><a href="#certifications" class="aa-header__nav__links__content">Certifications</a></li>
-          <!-- <i class="fa fa-solid fa-arrow-up-right-from-square" -->
-          <li><a href="#products" class="aa-header__nav__links__content">Products</a></li>
-          <li><a href="#business" class="aa-header__nav__links__content">Business</a></li>
-          <li><a href="#contact" class="aa-header__nav__links__content">Contact Me</a></li>
+          <li><a href="#certifications" class="aa-header__nav__links__content">Certificaciones</a></li>
+          <li><a href="#experience" class="aa-header__nav__links__content">Experiencia</a></li>
+          <li><a href="#recomendations" class="aa-header__nav__links__content">Recomendaciones</a></li>
+          <li><a href="#contact" class="aa-header__nav__links__content">Info Contacto</a></li>
         </ul>
       </nav>
-      <a href="#" class="aa-header-btn">Discover Portfolio</a>
+      <a href="#" class="aa-header-btn">Descubrir Portfolio</a>
     </div>
+
     <div class="aa-header-name aa-layout-flex aa-bottom-division">
       <h1>
         Adrian Anta Gil
       </h1>
     </div>
+  </header>
 
-    <div class="aa-header-bottom aa-layout-flex aa-bottom-division">
+  <main>
+    <section class="aa-section-upper aa-layout-flex aa-bottom-division">
       <div class="spreader-bar">
-        <div class="aa-header-bottom__text">
+        <div class="aa-section-upper__text">
           <h3>
             DO YOU WANT TO GENERATE MORE<br>
             LEADS AND CUSTOMERS THROUGH<br>
@@ -81,19 +84,16 @@
         </div>
 
       </div>
-      <a href="mailto:antaga04@gmail.com" class="aa-header-btn"><strong><h3>Let´s talk</h3></strong></a>
+      <a href="mailto:antaga04@gmail.com" class="aa-header-btn"><strong>
+          <h3>Email</h3>
+        </strong></a>
       <div>
-        <!-- <img
-          src="https://images.unsplash.com/photo-1560167016-022b78a0258e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-          alt="Photo" loading="lazy" class="aa-header-bottom__capture"> -->
         <img
           src="https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
-          alt="Photo" loading="lazy" class="aa-header-bottom__capture">
+          alt="Photo" loading="lazy" class="aa-section-upper__capture">
       </div>
-    </div>
-  </header>
+    </section>
 
-  <main>
     <section id="certifications" class="aa-section-layout-certifications">
       <div class="aa-section-certifications aa-layout-flex">
         <article class="aa-layout-flex">
@@ -101,8 +101,8 @@
               src="https://media.licdn.com/dms/image/C4D0BAQG3H8Kku-SCBQ/company-logo_200_200/0/1674728358320?e=1684972800&v=beta&t=MwuBvqGiQK_xuFZbqwDy30ANJAkq35at6087asnESXY"
               alt="Univeridad de Vigo Logo" loading="lazy" class="aa-section-certification--logo"></a>
           <div>
-            <h4>Univeridade de Vigo</h4>
-            <p>Grado en Ingeniería Inoformática</p>
+            <h4>Universidade de Vigo</h4>
+            <p>Grado en Ingeniería Informática</p>
           </div>
         </article>
         <article class="aa-layout-flex">
@@ -133,7 +133,7 @@
       </div>
     </section>
 
-    <section class="aa-bottom-division">
+    <section>
       <div class="aa-section__fullstack aa-layout-flex">
         <h2>Full Stack Developer</h2>
         <div class="a aa-layout-flex">
@@ -147,181 +147,79 @@
             data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/www.rockthecode.es/be64050d-crea-rtc-herramientas_10qo0px000000000000028.png"
             srcset="//d9hhrg4mnvzow.cloudfront.net/www.rockthecode.es/be64050d-crea-rtc-herramientas_10m70lz000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/www.rockthecode.es/be64050d-crea-rtc-herramientas_1000000000000000000028.png 2x"
             class="aa-section__fullstack__rockTheCode">
-          <!-- <img
-          src="https://mkttpmba.s3.eu-west-1.amazonaws.com/ThePower+Business+School/Brand/TPBS(LOGOS)/DIGITAL/svg/Digital-negativo.svg"
-          alt="Power Business School Logo" class="aa-pmba-logo"> -->
-          <img src="./Assets/rockTheCode-certificate.png" alt="Certificado rockthecode"
+          <img src="./Assets/rockTheCode-certificate.png" alt="Certificado RockTheCode"
             class="aa-rockthecode-certificate">
         </div>
       </div>
     </section>
 
-    <section id="business" class="aa-bottom-division">
-      <h2>Experiencia</h2>
+    <section id="experience" class="aa-bottom-division aa-layout-flex">
       <div class="aa-section-website aa-layout-flex">
-        <div>
-          <img
-            src="https://www.loteriaanta.com/Web_2_0/Loteria_ImagenesComunes/logotipos_despachos/loteria-anta-logo-white.svg"
-            alt="Lotería Anta Logo" class="aa-loteria-logo">
-        </div>
-        <div>
-          <ul class="aa-section-business--nav aa-layout-flex">
-            <li><a href="https://blog.loteriaanta.com/" target="_blank" class="aa-enlace-texto">Blog</a></li>
-            <li><a href="https://www.loteriaanta.com/sobre-nosotros/" target="_blank"
-                class="aa-enlace-texto">Nosotros</a></li>
-            <li><a href="https://www.loteriaanta.com/preguntas-frecuentes/" target="_blank"
-                class="aa-enlace-texto">FAQ's</a></li>
-            <div class="aa-social-icons aa-layout-flex">
-              <li><a href="https://www.facebook.com/LoteriaAnta/" target="_blank" class="aa-enlace-icono"><i
-                    class="fa fa-facebook"></i></a></li>
-              <li><a href="https://www.instagram.com/loteriaanta/" target="_blank" class="aa-enlace-icono"><i
-                    class="fa fa-instagram"></i></a>
-              </li>
-              <li><a href="https://twitter.com/loteriaanta/" target="_blank" class="aa-enlace-icono"><i
-                    class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/19055707/admin/" target="_blank" class="aa-enlace-icono"><i
-                    class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://api.whatsapp.com/send/?phone=34623210420&text&type=phone_number&app_absent=0"
-                  target="_blank" class="aa-enlace-icono"><i class="fa fa-whatsapp"></i></a></li>
-            </div>
-          </ul>
-        </div>
+        <h2>Experiencia</h2>
+        <i class="fa fa-angle-down"></i>
+        <article class="aa-layout-flex">
+          <div>
+            <img
+              src="https://www.loteriaanta.com/Web_2_0/Loteria_ImagenesComunes/logotipos_despachos/loteria-anta-logo-white.svg"
+              alt="Lotería Anta Logo" class="aa-loteria-logo">
+          </div>
+          <div>
+            <ul class="aa-section-business--nav aa-layout-flex">
+              <li><a href="https://blog.loteriaanta.com/" target="_blank" class="aa-enlace-texto">Blog</a></li>
+              <li><a href="https://www.loteriaanta.com/sobre-nosotros/" target="_blank"
+                  class="aa-enlace-texto">Nosotros</a></li>
+              <li><a href="https://www.loteriaanta.com/preguntas-frecuentes/" target="_blank"
+                  class="aa-enlace-texto">FAQ's</a></li>
+              <div class="aa-social-icons aa-layout-flex">
+                <li><a href="https://www.facebook.com/LoteriaAnta/" target="_blank" class="aa-enlace-icono"><i
+                      class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/loteriaanta/" target="_blank" class="aa-enlace-icono"><i
+                      class="fa fa-instagram"></i></a>
+                </li>
+                <li><a href="https://twitter.com/loteriaanta/" target="_blank" class="aa-enlace-icono"><i
+                      class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/19055707/admin/" target="_blank"
+                    class="aa-enlace-icono"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=34623210420&text&type=phone_number&app_absent=0"
+                    target="_blank" class="aa-enlace-icono"><i class="fa fa-whatsapp"></i></a></li>
+              </div>
+            </ul>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="products" class="aa-section-layout aa-layout-flex ">
-      <h2>Products</h2>
+    <section id="recomendations" class="rc-section-featured aa-layout-flex">
+      <h2>Recomendaciones</h2>
       <i class="fa fa-angle-down"></i>
-      <div class="aa-section-products__type aa-layout-flex">
-        <h2>Books</h2>
-        <div class="aa-section__books aa-layout-grid">
-          <article class="aa-section__article aa-layout-flex">
-            <img
-              src="https://d9hhrg4mnvzow.cloudfront.net/programa.thepowermba.com/libreria-recomendada/560a0842-17-comoconstruirstorybrand_100000000000000000001o.jpg"
-              alt="Vaporwave Tee preview" loading="lazy" class="aa-section-featured--preview" />
-            <h3 class="aa-section-products--title">Cómo construir una STORY-BRAND</h3>
-            <a href="https://amzn.eu/d/7g4bb5x" target="_blank" class="aa-products-btn">Comprar</a>
-          </article>
-          <article class="aa-section__article aa-layout-flex">
-            <img src="https://m.media-amazon.com/images/I/61aug2ORFVL.jpg" alt="Vaporwave Tee preview" loading="lazy"
-              class="aa-section-featured--preview" />
-            <h3 class="aa-section-products--title">Principles: Life and Work</h3>
-            <a href="https://amzn.eu/d/3pWOdNE" target="_blank" class="aa-products-btn">Comprar</a>
-          </article>
-          <article class="aa-section__article aa-layout-flex">
-            <img
-              src="https://d9hhrg4mnvzow.cloudfront.net/programa.thepowermba.com/libreria-recomendada/a9849f02-1-lean-startup_100000000000000000001o.jpg"
-              alt="Vaporwave Tee preview" loading="lazy" class="aa-section-featured--preview" />
-            <h3 class="aa-section-products--title">El método Lean Startup Eric Ries</h3>
-            <a href="https://amzn.eu/d/dvlNOHO" target="_blank" class="aa-products-btn">Comprar</a>
-          </article>
-          <article class="aa-section__article aa-layout-flex">
-            <img
-              src="https://d9hhrg4mnvzow.cloudfront.net/programa.thepowermba.com/libreria-recomendada/b3f93cdd-gasol_100000000000000000001o.jpg"
-              alt="Vaporwave Tee preview" loading="lazy" class="aa-section-featured--preview" />
-            <h3 class="aa-section-products--title">Bajo el aro: Aprender del éxito y del fracaso</h3>
-            <a href="https://amzn.eu/d/9eTgoQU" target="_blank" class="aa-products-btn">Comprar</a>
-          </article>
-        </div>
-      </div>
-      <div class="aa-section-products__type aa-layout-flex">
-        <h2>Merch</h2>
-        <div class="aa-section__books aa-layout-grid">
-          <article class="aa-section__article aa-layout-flex">
-            <img
-              srcset="//cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-azul-frentecordonazul2_288x.jpg?v=1627900806 288w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-azul-frentecordonazul2_576x.jpg?v=1627900806 576w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-azul-frentecordonazul2_750x.jpg?v=1627900806 750w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-azul-frentecordonazul2_1100x.jpg?v=1627900806 1100w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-azul-frentecordonazul2.jpg?v=1627900806 1121w"
-              src="//cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-azul-frentecordonazul2_1500x.jpg?v=1627900806"
-              sizes="(min-width: 1600px) 960px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
-              loading="lazy" class="aa-section-featured--preview-brand" alt="ThePower Business School Blue Hoodie">
-            <h3 class="aa-section-products--title">ThePower Business School Blue Hoodie</h3>
-            <a href="https://shop.thepowermba.com/products/the-powermba-hoodie" target="_blank"
-              class="aa-products-btn">Comprar</a>
-          </article>
-          <article class="aa-section__article aa-layout-flex">
-            <img
-              srcset="//cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-gris-frentecordongris_a7cbfbf3-2bb3-47c1-9ab7-6922a33f96c1_288x.jpg?v=1627901266 288w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-gris-frentecordongris_a7cbfbf3-2bb3-47c1-9ab7-6922a33f96c1_576x.jpg?v=1627901266 576w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-gris-frentecordongris_a7cbfbf3-2bb3-47c1-9ab7-6922a33f96c1_750x.jpg?v=1627901266 750w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-gris-frentecordongris_a7cbfbf3-2bb3-47c1-9ab7-6922a33f96c1_1100x.jpg?v=1627901266 1100w,
-        
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-gris-frentecordongris_a7cbfbf3-2bb3-47c1-9ab7-6922a33f96c1.jpg?v=1627901266 1121w"
-              src="//cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-con-capucha-gris-frentecordongris_a7cbfbf3-2bb3-47c1-9ab7-6922a33f96c1_1500x.jpg?v=1627901266"
-              sizes="(min-width: 1600px) 960px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
-              loading="lazy" class="aa-section-featured--preview-brand" alt="ThePower Business School Gray Hoodie">
-            <h3 class="aa-section-products--title">ThePower Business School Gray Hoodie</h3>
-            <a href="https://shop.thepowermba.com/products/the-powermba-hoodie-grey" target="_blank"
-              class="aa-products-btn">Comprar</a>
-          </article>
-          <article class="aa-section__article aa-layout-flex">
-            <img
-              srcset="//cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-sin-capucha-azul-espalda_ff3b1818-e2b9-4927-b449-45fb8587676e_288x.jpg?v=1623165786 288w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-sin-capucha-azul-espalda_ff3b1818-e2b9-4927-b449-45fb8587676e_576x.jpg?v=1623165786 576w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-sin-capucha-azul-espalda_ff3b1818-e2b9-4927-b449-45fb8587676e_750x.jpg?v=1623165786 750w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-sin-capucha-azul-espalda_ff3b1818-e2b9-4927-b449-45fb8587676e_1100x.jpg?v=1623165786 1100w,
-        
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-sin-capucha-azul-espalda_ff3b1818-e2b9-4927-b449-45fb8587676e.jpg?v=1623165786 1121w"
-              src="//cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-sin-capucha-azul-espalda_ff3b1818-e2b9-4927-b449-45fb8587676e_1500x.jpg?v=1623165786"
-              sizes="(min-width: 1600px) 960px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
-              loading="lazy" class="aa-section-featured--preview-brand" alt="ThePower Business School Blue Sweatshirt">
-            <h3 class="aa-section-products--title">ThePower Business School Blue Sweatshirt</h3>
-            <a href="https://shop.thepowermba.com/products/the-powermba-hoodie-blue" target="_blank"
-              class="aa-products-btn">Comprar</a>
-          </article>
-          <article class="aa-section__article aa-layout-flex">
-            <img
-              srcset="//cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-gris-sin-capucha-frente-corregida_288x.jpg?v=1624622361 288w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-gris-sin-capucha-frente-corregida_576x.jpg?v=1624622361 576w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-gris-sin-capucha-frente-corregida_750x.jpg?v=1624622361 750w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-gris-sin-capucha-frente-corregida_1100x.jpg?v=1624622361 1100w,
-        //cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-gris-sin-capucha-frente-corregida.jpg?v=1624622361 1121w"
-              src="//cdn.shopify.com/s/files/1/0575/5273/2357/products/sudadera-gris-sin-capucha-frente-corregida_1500x.jpg?v=1624622361"
-              sizes="(min-width: 1600px) 960px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
-              loading="lazy" class="aa-section-featured--preview-brand" alt="ThePower Business School Gray Sweatshirt">
-            <h3 class="aa-section-products--title">ThePower Business School Gray Sweatshirt</h3>
-            <a href="https://shop.thepowermba.com/products/the-powermba-hoodie-grey-1" target="_blank"
-              class="aa-products-btn">Comprar</a>
-          </article>
-        </div>
-      </div>
-      <div class="aa-section-products__type aa-layout-flex">
-        <h2>Tech</h2>
-        <div class="aa-section__books aa-layout-grid">
-          <article class="aa-section__article aa-layout-flex">
-            <img alt="STAEDTLER Initium Resina Resina Pluma Azul Talla M"
-              src="https://m.media-amazon.com/images/I/61CchGUhobL._AC_SX679_.jpg" loading="lazy"
-              class="aa-section-featured--preview-tech">
-            <h3 class="aa-section-products--title">STAEDTLER Initium Resina Pluma Azul</h3>
-            <a href="https://amzn.eu/d/2cGxa9H" target="_blank" class="aa-products-btn">Comprar</a>
-          </article>
-          <article class="aa-section__article aa-layout-flex">
-            <img
-              alt="Trípode Cámara de Movil, Victiv 185cm Aluminio Tripode para Nikon Canon Sony, Cabezal Giratorio Desmontable de 3 vías, con Soporte para Teléfono y 2 Placas de Liberación Rápida(Neuvo Diseño)"
-              src="https://m.media-amazon.com/images/I/71+wdVDWqTL._AC_AA440_.jpg" loading="lazy"
-              class="aa-section-featured--preview-tech">
-            <h3 class="aa-section-products--title">Trípode Cámara de Movil</h3>
-            <a href="https://amzn.eu/d/7aanRbm" target="_blank" class="aa-products-btn">Comprar</a>
-          </article>
-          <article class="aa-section__article aa-layout-flex">
-            <img
-              alt="ROXENDA GAN 356 RS Speed Cube, Stickerless GAN 356RS Speedcube, GAN 3x3 Cube V3 System Cubo de Velocidad 3x3x3 for Beginners and Professionals, GAN 356 R Upgraded Version"
-              src="https://m.media-amazon.com/images/I/61Vk+9ewBzS._AC_SY300_SX300_.jpg"
-              class="aa-section-featured--preview-tech">
-            <h3 class="aa-section-products--title">ROXENDA GAN 356 RS Speed Cube</h3>
-            <a href="https://amzn.eu/d/jfFEmol" target="_blank" class="aa-products-btn">Comprar</a>
-          </article>
-          <article class="aa-section__article aa-layout-flex">
-            <img
-              alt="Power Bank, AOGUERBE Batería Externa Carga Rápida 10000mAh, Cargador Portátil Magnético Inalámbrico Plegable PD 22.5W Powerbank MagSafe Pantalla LED USB-C para iPhone 14/13/12/Mini/Pro/Pro MAX"
-              src="https://m.media-amazon.com/images/I/61yFReykZAL._AC_SX679_.jpg"
-              class="aa-section-featured--preview-tech">
-            <h3 class="aa-section-products--title">Power Bank Batería 10000mAh</h3>
-            <a href="https://amzn.eu/d/73UnmH2" target="_blank" class="aa-products-btn">Comprar</a>
-          </article>
-        </div>
+      <div class="rc-section-featured__gallery aa-layout-grid">
+        <article class="rc-section-featured__article aa-layout-flex">
+          <img
+            src="https://d9hhrg4mnvzow.cloudfront.net/programa.thepowermba.com/libreria-recomendada/560a0842-17-comoconstruirstorybrand_100000000000000000001o.jpg"
+            alt="Vaporwave Tee preview" loading="lazy" class="aa-section-featured--preview" />
+          <h3 class="aa-section-products--title aa-layout-flex">Cómo construir una STORY-BRAND</h3>
+          <a href="https://amzn.eu/d/7g4bb5x" target="_blank" class="aa-products-btn">Comprar</a>
+        </article>
+        <article class="rc-section-featured__article aa-layout-flex">
+          <img src="https://m.media-amazon.com/images/I/61aug2ORFVL.jpg" alt="Vaporwave Tee preview" loading="lazy"
+            class="aa-section-featured--preview" />
+          <h3 class="aa-section-products--title">Principles: Life and Work</h3>
+          <a href="https://amzn.eu/d/3pWOdNE" target="_blank" class="aa-products-btn">Comprar</a>
+        </article>
+        <article class="rc-section-featured__article aa-layout-flex">
+          <img
+            src="https://d9hhrg4mnvzow.cloudfront.net/programa.thepowermba.com/libreria-recomendada/a9849f02-1-lean-startup_100000000000000000001o.jpg"
+            alt="Vaporwave Tee preview" loading="lazy" class="aa-section-featured--preview" />
+          <h3 class="aa-section-products--title">El método Lean Startup Eric Ries</h3>
+          <a href="https://amzn.eu/d/dvlNOHO" target="_blank" class="aa-products-btn">Comprar</a>
+        </article>
+        <article class="rc-section-featured__article aa-layout-flex">
+          <img
+            src="https://d9hhrg4mnvzow.cloudfront.net/programa.thepowermba.com/libreria-recomendada/b3f93cdd-gasol_100000000000000000001o.jpg"
+            alt="Vaporwave Tee preview" loading="lazy" class="aa-section-featured--preview" />
+          <h3 class="aa-section-products--title">Bajo el aro: Aprender del éxito y del fracaso</h3>
+          <a href="https://amzn.eu/d/9eTgoQU" target="_blank" class="aa-products-btn">Comprar</a>
+        </article>
       </div>
     </section>
 
@@ -329,8 +227,7 @@
       <div class="container">
         <div class="row aa-layout-flex">
           <div id="contact" class="col-md-4 aa-layout-flex">
-            <h4>Contact me</h4>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget odio libero. Nunc efficitur sem id nulla cursus, quis accumsan sapien bibendum.</p> -->
+            <h4>Info Contacto</h4>
             <ul class="list-unstyled contact-info">
               <li><i class="fa fa-envelope"></i> antaga04@gmail.com</li>
               <li><i class="fa fa-globe"></i> www.loteriaanta.com</li>
@@ -338,34 +235,29 @@
             </ul>
           </div>
           <div class="col-md-4 aa-layout-flex">
-            <h4>Quick Links</h4>
+            <h4>Contenido</h4>
             <ul class="list-unstyled">
               <li><a href="#">Home</a></li>
-              <li><a href="#certifications">Certificcations</a></li>
-              <li><a href="#products">Products</a></li>
-              <li><a href="#business">Business</a></li>
+              <li><a href="#certifications">Certificaciones</a></li>
+              <li><a href="#products">Experiencia</a></li>
+              <li><a href="#recomendations">Recomendaciones</a></li>
             </ul>
           </div>
           <div class="col-md-4 aa-layout-flex">
-            <h4>Follow Me</h4>
+            <h4>Sígueme</h4>
             <ul class="list-inline social-icons">
               <li class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
               <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <!-- <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li> -->
-              <!-- <li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li> -->
             </ul>
           </div>
         </div>
         <div class="row aa-layout-flex">
           <div class="col-md-12">
-            <!-- <hr> -->
             <p class="text-center">&copy; 2023 Adrián Anta Gil. All Rights Reserved.</p>
           </div>
         </div>
       </div>
     </footer>
-
-
   </main>
 </body>
 
