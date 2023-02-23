@@ -82,6 +82,34 @@ a {
     }
 }
 
+.boton-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #5DC999;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
+.boton-flotante {
+    display: none;
+    opacity: 0;
+    transition: display 0.3s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+.boton-flotante.visible {
+    display: block;
+    opacity: 1;
+}
+
+.boton-flotante:hover {
+    opacity: 0.5;
+}
+
 .aa-layout-flex {
     display: flex;
     justify-content: center;
@@ -99,6 +127,10 @@ a {
 
 .fa-angle-down {
     font-size: 3rem;
+}
+
+.fa-angle-down {
+    margin-bottom: 1rem;
 }
 
 /* HEADER */
@@ -312,7 +344,7 @@ a {
 
 /* EXPERIENCE SECTION */
 #experience {
-    padding: 3rem 0 3rem 0;
+    padding: 1rem 0 3rem 0;
     flex-direction: column;
 }
 
@@ -427,8 +459,9 @@ a {
 
     transition: all 0.4s ease-in-out;
 }
+
 .aa-products-btn:hover {
-    background-color: rgb(255,215,18);
+    background-color: rgb(255, 215, 18);
 }
 
 
