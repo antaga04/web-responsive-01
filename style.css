@@ -424,7 +424,13 @@ a {
     border-radius: var(--aa-borde-radius);
     margin-top: 1rem;
     padding: .6rem;
+
+    transition: all 0.4s ease-in-out;
 }
+.aa-products-btn:hover {
+    background-color: rgb(255,215,18);
+}
+
 
 /* ------------------------------------------------------- */
 /* FOOTER CHATGPT */
