@@ -58,7 +58,7 @@ body {
 }
 
 h1 {
-    margin-left: 1rem;
+    margin: 0 1rem 0 1rem; /* --a-margin-h1 */
     font-family: var(--aa-typography-name);
     text-transform: uppercase;
 }
@@ -67,8 +67,8 @@ h2 {
     font-weight: 900;
     text-transform: uppercase;
     font-family: var(--aa-typography-main);
-    font-size: 3rem;
-    padding: 1rem;
+    font-size: 3rem; 
+    padding: 1rem; /* --a-padding-half-base */
 }
 
 a {
@@ -121,7 +121,7 @@ a {
 }
 
 .aa-bottom-division {
-    border-bottom: 1.5px solid var(--aa-color-n-600);
+    border-bottom: 1.5px solid var(--aa-color-n-600); /* --a-border-division */
 }
 
 .fa-angle-down {
@@ -142,12 +142,12 @@ a {
 .aa-header-upper {
     min-height: 6vh;
     justify-content: space-between;
-    padding: 0.8rem 2rem 0.8rem 2rem;
+    padding: 0.8rem 2rem 0.8rem 2rem; /* --a-padding-header__upper */
 }
 
 .aa-header-icons a {
     font-size: 35px;
-    padding-right: 1.5rem;
+    padding-right: 1.5rem; /* --a-padding-iconos */
 }
 
 .aa-header-icons a:last-child {
@@ -173,7 +173,7 @@ a {
     content: "";
     width: 0px;
     height: 2px;
-    background-color: var(--aa-color-n-600);
+    background-color: var(--aa-color-n-600); /* --a-color-links__bar */
     position: relative;
     top: 5px;
     transition: all 0.45s ease-in-out;
@@ -196,7 +196,7 @@ a {
         color: var(--aa-color-typography-body);
         font-style: normal;
         font-size: 1.9rem;
-        padding: 0.6rem;
+        padding: 0.6rem; /* --a-padding-hamburger */
     }
 
     /* TOGGLE SHOW/HIDE NAV */
@@ -221,7 +221,7 @@ a {
     border: var(--aa-border-header__btn);
     border-radius: var(--aa-borde-radius);
     padding: var(--aa-btn-padding);
-    margin: .8rem;
+    margin: .8rem; /* --a-margin-button */
     white-space: nowrap;
     transition: all 0.3s ease-in-out;
 }
@@ -231,7 +231,7 @@ a {
 }
 
 .aa-header-name {
-    font-size: 3.3vw;
+    font-size: 3.3vw; /* --a-typography-size-name */
     background-color: var(--aa-color-n-200);
 }
 
@@ -244,7 +244,7 @@ a {
 
 .aa-section-upper__text h3 {
     font-size: 2em;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.5rem; 
 }
 
 .aa-section-upper__capture {
@@ -252,8 +252,8 @@ a {
     height: 20rem;
     object-fit: cover;
     border: var(--aa-border);
-    border-radius: 2rem;
-    margin: 1rem;
+    border-radius: 2rem; /* --a-border-radius-medium */
+    margin: 1rem; /* --a-margin-small */
 }
 
 @media screen and (max-width: 48rem) {
@@ -276,7 +276,7 @@ a {
 
 /* CERTIFICATIONS SECTION */
 .aa-section-layout-certifications {
-    padding: 2rem;
+    padding: var(--aa-padding-base);
 }
 
 .aa-section-certifications {
@@ -284,7 +284,7 @@ a {
 }
 
 .aa-section-certifications article {
-    margin: 1rem;
+    margin: 1rem; /* --a-margin-small */
 }
 
 .fa-graduation-cap {
@@ -325,7 +325,7 @@ a {
 }
 
 .aa-rockthecode-certificate {
-    margin: 2rem;
+    margin: 2rem; /* --a-margin-medium */
     width: 30vw;
 }
 
@@ -337,7 +337,7 @@ a {
     }
 
     .aa-rockthecode-certificate {
-        margin: 2rem;
+        margin: 2rem; /* --a-margin-medium */
         width: 75vw;
     }
 }
@@ -420,19 +420,11 @@ a {
     margin: .8rem;
 }
 
-/* .rc-section-featured__gallery {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 0.7fr));
-    grid-template-columns: repeat(auto-fill, minmax(300px, min(1fr, calc(100% / 4))));
-    grid-auto-flow: dense;
-    justify-content: center;
-    width: 80vw;
-} */
-
 .rc-section-featured__article {
     flex-direction: column;
     text-align: center;
     background-color: #FFFFFF;
-    margin: 1rem;
+    margin: 1rem; /* --a-margin-small */
     padding-bottom: 1rem;
     text-transform: uppercase;
     border: var(--aa-border-header__btn);
@@ -441,11 +433,10 @@ a {
     height: 26rem;
 }
 
-/* hola je je esto es una prueba que no cambia nada */
 .aa-section-featured--preview {
     width: auto;
     height: 16rem;
-    padding: 1rem;
+    padding: 1rem; /* --a-padding-half-base */
 }
 
 .aa-products-btn {
@@ -558,7 +549,7 @@ footer p.text-center {
 
 .col-md-4 {
     flex-direction: column;
-    padding: 1rem;
+    padding: 1rem; /* --a-padding-half-base */
 }
 
 .col-md-12 {
