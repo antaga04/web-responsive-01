@@ -1,9 +1,10 @@
 const botonFlotante = document.getElementById("boton-flotante");
-botonFlotante.addEventListener("click", function (e) {
-  e.preventDefault();
-  const destino = document.getElementById("contenido-principal");
-  destino.scrollIntoView({ behavior: "smooth" });
-});
+
+// botonFlotante.addEventListener("click", function (e) {
+//   e.preventDefault();
+//   const destino = document.getElementById("contenido-principal");
+//   destino.scrollIntoView({ behavior: "smooth" });
+// });
 
 window.addEventListener("scroll", function () {
   const botonFlotante = document.getElementById("boton-flotante");
@@ -13,3 +14,11 @@ window.addEventListener("scroll", function () {
     botonFlotante.classList.remove("visible");
   }
 });
+
+const smoothScrollUp = (e) => {
+  e.preventDefault();
+  const destino = document.getElementById("contenido-principal");
+  destino.scrollIntoView({ behavior: "smooth" });
+};
+
+botonFlotante.addEventListener("click", smoothScrollUp);
