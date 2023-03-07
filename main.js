@@ -8,7 +8,7 @@ const botonFlotante = document.getElementById("boton-flotante");
 
 window.addEventListener("scroll", function () {
   const botonFlotante = document.getElementById("boton-flotante");
-  if (window.scrollY > 0) {
+  if (window.scrollY > 130) {
     botonFlotante.classList.add("visible");
   } else {
     botonFlotante.classList.remove("visible");
