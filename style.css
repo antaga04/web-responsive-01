@@ -314,7 +314,7 @@ a {
 .aa-section__fullstack {
     background-color: var(--aa-color-n-650);
     color: var(--aa-color-n-050);
-    padding: var(--aa-padding-base);
+    padding: 2rem 0;
     flex-direction: column;
 }
 
@@ -402,12 +402,6 @@ a {
     .aa-loteria-logo {
         height: 17vw;
     }
-
-    .aa-social-icons {
-        margin-top: 2rem;
-    }
-
-
 }
 
 /* RECOMENDATIONS SECTION */
